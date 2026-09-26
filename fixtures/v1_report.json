@@ -1,0 +1,9 @@
+{
+  "exact": 63,
+  "exact_rate": 0.851,
+  "errors": {
+    "under_strip": 10,
+    "false_friend": 1
+  },
+  "n_frozen": 74
+}

@@ -1,0 +1,3583 @@
+[
+  {
+    "token": "המשרד",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "משרד",
+    "split": "train"
+  },
+  {
+    "token": "ובית",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "בית",
+    "split": "train"
+  },
+  {
+    "token": "לעבודה",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "עבודה",
+    "split": "train"
+  },
+  {
+    "token": "מהעיר",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "עיר",
+    "split": "dev"
+  },
+  {
+    "token": "מהבית",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "בית",
+    "split": "train"
+  },
+  {
+    "token": "בבית",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "בית",
+    "split": "train"
+  },
+  {
+    "token": "למשרד",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "משרד",
+    "split": "train"
+  },
+  {
+    "token": "כשבא",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "בא",
+    "split": "train"
+  },
+  {
+    "token": "כשהגיע",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "הגיע",
+    "split": "train"
+  },
+  {
+    "token": "והילד",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ילד",
+    "split": "train"
+  },
+  {
+    "token": "עיר",
+    "prefixes": [],
+    "stem": "עיר",
+    "split": "dev"
+  },
+  {
+    "token": "מכתב",
+    "prefixes": [],
+    "stem": "מכתב",
+    "split": "dev"
+  },
+  {
+    "token": "שלום",
+    "prefixes": [],
+    "stem": "שלום",
+    "split": "test"
+  },
+  {
+    "token": "כלב",
+    "prefixes": [],
+    "stem": "כלב",
+    "split": "train"
+  },
+  {
+    "token": "שרץ",
+    "prefixes": [],
+    "stem": "שרץ",
+    "split": "test"
+  },
+  {
+    "token": "מפתח",
+    "prefixes": [],
+    "stem": "מפתח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בגד",
+    "prefixes": [],
+    "stem": "בגד",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ויתר",
+    "prefixes": [],
+    "stem": "ויתר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כינים",
+    "prefixes": [],
+    "stem": "כינים",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "שיניים",
+    "prefixes": [],
+    "stem": "שיניים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והשמש",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "שמש",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהחדר",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "חדר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שולחן",
+    "prefixes": [],
+    "stem": "שולחן",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לגן",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "גן",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהחלון",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "חלון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כיסא",
+    "prefixes": [],
+    "stem": "כיסא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והדלת",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "דלת",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהרחוב",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "רחוב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לחם",
+    "prefixes": [],
+    "stem": "לחם",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "בשדה",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "שדה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהגינה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "גינה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "תפוח",
+    "prefixes": [],
+    "stem": "תפוח",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "כשאכל",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "אכל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהכיתה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "כיתה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "חלב",
+    "prefixes": [],
+    "stem": "חלב",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "ונסע",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "נסע",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהחנות",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "חנות",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ספר",
+    "prefixes": [],
+    "stem": "ספר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שהלך",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "הלך",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהרכב",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "רכב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כובע",
+    "prefixes": [],
+    "stem": "כובע",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשישן",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "ישן",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהספה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "ספה",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "חולצה",
+    "prefixes": [],
+    "stem": "חולצה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לשתות",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "שתות",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מהשוק",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "שוק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "אוטובוס",
+    "prefixes": [],
+    "stem": "אוטובוס",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ורץ",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "רץ",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מהשעון",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "שעון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "גבינה",
+    "prefixes": [],
+    "stem": "גבינה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "המקרר",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "מקרר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהרצפה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "רצפה",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "נעליים",
+    "prefixes": [],
+    "stem": "נעליים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לחנות",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "חנות",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והילדה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ילדה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מחשב",
+    "prefixes": [],
+    "stem": "מחשב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "הילד",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "ילד",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "הילדה",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "ילדה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "ואבא",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "אבא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ואמא",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "אמא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והים",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והגן",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "גן",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והספר",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ספר",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כשנפל",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "נפל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לחדר",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "חדר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בגינה",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "גינה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לשוק",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "שוק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהמטבח",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "מטבח",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מהחצר",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "חצר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהדלת",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "דלת",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהמדף",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "מדף",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מהכביש",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "כביש",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהכיור",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "כיור",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהברז",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "ברז",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "שקית",
+    "prefixes": [],
+    "stem": "שקית",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "שבלול",
+    "prefixes": [],
+    "stem": "שבלול",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שלג",
+    "prefixes": [],
+    "stem": "שלג",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מרק",
+    "prefixes": [],
+    "stem": "מרק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מגבת",
+    "prefixes": [],
+    "stem": "מגבת",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מטריה",
+    "prefixes": [],
+    "stem": "מטריה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מכנסיים",
+    "prefixes": [],
+    "stem": "מכנסיים",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "בקבוק",
+    "prefixes": [],
+    "stem": "בקבוק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ביצה",
+    "prefixes": [],
+    "stem": "ביצה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כרוב",
+    "prefixes": [],
+    "stem": "כרוב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לגינה",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "גינה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "במיטה",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "מיטה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שישן",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "ישן",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "השולחן",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "שולחן",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והמורה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מורה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בדלת",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "דלת",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שראה",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "ראה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "הכיסא",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "כיסא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "וקם",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "קם",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לרחוב",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "רחוב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בכיתה",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "כיתה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מטרייה",
+    "prefixes": [],
+    "stem": "מטרייה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מסרק",
+    "prefixes": [],
+    "stem": "מסרק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מנורה",
+    "prefixes": [],
+    "stem": "מנורה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ברווז",
+    "prefixes": [],
+    "stem": "ברווז",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כרית",
+    "prefixes": [],
+    "stem": "כרית",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והאוכל",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "אוכל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שהכדור",
+    "prefixes": [
+      "ש",
+      "ה"
+    ],
+    "stem": "כדור",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשהלך",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "הלך",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "מהתיק",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "תיק",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "לעץ",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "עץ",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "במקרר",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "מקרר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "המדף",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "מדף",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ושתה",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "שתה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשיצא",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "יצא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהקופסה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "קופסה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "הספר",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "ספר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והכלב",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "כלב",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "בעיר",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "עיר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לבית",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "בית",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהעבודה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "עבודה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ולמשרד",
+    "prefixes": [
+      "ו",
+      "ל"
+    ],
+    "stem": "משרד",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "הילדים",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "ילדים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והעיר",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "עיר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "במשרד",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "משרד",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "מבית",
+    "prefixes": [
+      "מ"
+    ],
+    "stem": "בית",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שהילד",
+    "prefixes": [
+      "ש",
+      "ה"
+    ],
+    "stem": "ילד",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "וכשבא",
+    "prefixes": [
+      "ו",
+      "כש"
+    ],
+    "stem": "בא",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "משפט",
+    "prefixes": [],
+    "stem": "משפט",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בשר",
+    "prefixes": [],
+    "stem": "בשר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ורד",
+    "prefixes": [],
+    "stem": "ורד",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מטרה",
+    "prefixes": [],
+    "stem": "מטרה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ותיק",
+    "prefixes": [],
+    "stem": "ותיק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מגדל",
+    "prefixes": [],
+    "stem": "מגדל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בטן",
+    "prefixes": [],
+    "stem": "בטן",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "ועד",
+    "prefixes": [],
+    "stem": "ועד",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והמים",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והכרית",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "כרית",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והארוחה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ארוחה",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והצלחת",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "צלחת",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "המטבח",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "מטבח",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "הספל",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "ספל",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "השמיכה",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "שמיכה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מהמזלג",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "מזלג",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהמקלחת",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "מקלחת",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשסיים",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "סיים",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כשהתעורר",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "התעורר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כששטף",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "שטף",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כשהתקשר",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "התקשר",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כשהבין",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "הבין",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בשביל",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "שביל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בשעה",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "שעה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לחגיגה",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "חגיגה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לתחנה",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "תחנה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לסרט",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "סרט",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "לבריכה",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "בריכה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "סבון",
+    "prefixes": [],
+    "stem": "סבון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כוס",
+    "prefixes": [],
+    "stem": "כוס",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כפית",
+    "prefixes": [],
+    "stem": "כפית",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מברשת",
+    "prefixes": [],
+    "stem": "מברשת",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מפית",
+    "prefixes": [],
+    "stem": "מפית",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "סכין",
+    "prefixes": [],
+    "stem": "סכין",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "קופסה",
+    "prefixes": [],
+    "stem": "קופסה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "שוקולד",
+    "prefixes": [],
+    "stem": "שוקולד",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ואכל",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "אכל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשקם",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "קם",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והחתול",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "חתול",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מנעול",
+    "prefixes": [],
+    "stem": "מנעול",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "במגירה",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "מגירה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהמיטה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "מיטה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כדור",
+    "prefixes": [],
+    "stem": "כדור",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שכתב",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "כתב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והציפור",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ציפור",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מזלג",
+    "prefixes": [],
+    "stem": "מזלג",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בחצר",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "חצר",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מהארון",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "ארון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כפתור",
+    "prefixes": [],
+    "stem": "כפתור",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כשראה",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "ראה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ושמח",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "שמח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והענן",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ענן",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שנפל",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "נפל",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "לכיתה",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "כיתה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהחוף",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "חוף",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שמיכה",
+    "prefixes": [],
+    "stem": "שמיכה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כששתה",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "שתה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והירח",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ירח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מקלחת",
+    "prefixes": [],
+    "stem": "מקלחת",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ומצא",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "מצא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בבריכה",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "בריכה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והדג",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "דג",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "מהעץ",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "עץ",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מחברת",
+    "prefixes": [],
+    "stem": "מחברת",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהגן",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "גן",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שצחק",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "צחק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והחצר",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "חצר",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "וצייר",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "צייר",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "והמטבח",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מטבח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהים",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "ים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "וחזר",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "חזר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שנכנס",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "נכנס",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מטוס",
+    "prefixes": [],
+    "stem": "מטוס",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "והפרח",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "פרח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ועלה",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "עלה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהירח",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "ירח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שירד",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "ירד",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "כשקרא",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "קרא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "סוס",
+    "prefixes": [],
+    "stem": "סוס",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהגשם",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "גשם",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "וכתב",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "כתב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "תיק",
+    "prefixes": [],
+    "stem": "תיק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והאופניים",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "אופניים",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "ששמע",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "שמע",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "עוגה",
+    "prefixes": [],
+    "stem": "עוגה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בחוף",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "חוף",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "שהחתול",
+    "prefixes": [
+      "ש",
+      "ה"
+    ],
+    "stem": "חתול",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והכדור",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "כדור",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהתחנה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "תחנה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והכוכב",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "כוכב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "במים",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "מים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "המורה",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "מורה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "וקפץ",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "קפץ",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "כשהסתכל",
+    "prefixes": [
+      "כש",
+      "ה"
+    ],
+    "stem": "סתכל",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כשענה",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "ענה",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "וצחק",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "צחק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שברח",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "ברח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ועזר",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "עזר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מטבח",
+    "prefixes": [],
+    "stem": "מטבח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מרפסת",
+    "prefixes": [],
+    "stem": "מרפסת",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מזוודה",
+    "prefixes": [],
+    "stem": "מזוודה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כרטיס",
+    "prefixes": [],
+    "stem": "כרטיס",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "שמלה",
+    "prefixes": [],
+    "stem": "שמלה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "הגן",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "גן",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בבוקר",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "בוקר",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "בערב",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "ערב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שיחק",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "יחק",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "וסגר",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "סגר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בשכונה",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "שכונה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ופתח",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "פתח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כששמע",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "שמע",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שישב",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "ישב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והביא",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ביא",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "שהסתכל",
+    "prefixes": [
+      "ש",
+      "ה"
+    ],
+    "stem": "סתכל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והרים",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "רים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהגג",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "גג",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהטלפון",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "טלפון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בתיק",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "תיק",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "וילון",
+    "prefixes": [],
+    "stem": "וילון",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מלפפון",
+    "prefixes": [],
+    "stem": "מלפפון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "עפרון",
+    "prefixes": [],
+    "stem": "עפרון",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "ברחוב",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "רחוב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשנכנס",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "נכנס",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "ארוחה",
+    "prefixes": [],
+    "stem": "ארוחה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "לארוחה",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "ארוחה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "אורז",
+    "prefixes": [],
+    "stem": "אורז",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שאכל",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "אכל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "גרביים",
+    "prefixes": [],
+    "stem": "גרביים",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "חבר",
+    "prefixes": [],
+    "stem": "חבר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לחבר",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "חבר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והחבר",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "חבר",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "מהשכונה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "שכונה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשטייל",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "טייל",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והגשם",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "גשם",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהסלון",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "סלון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לים",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "ים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כששחה",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "שחה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "דגים",
+    "prefixes": [],
+    "stem": "דגים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "וספר",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "ספר",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "ומים",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "מים",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מעיל",
+    "prefixes": [],
+    "stem": "מעיל",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "בננה",
+    "prefixes": [],
+    "stem": "בננה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לילה",
+    "prefixes": [],
+    "stem": "לילה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בוקר",
+    "prefixes": [],
+    "stem": "בוקר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כפפה",
+    "prefixes": [],
+    "stem": "כפפה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "עיפרון",
+    "prefixes": [],
+    "stem": "עיפרון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "עיתון",
+    "prefixes": [],
+    "stem": "עיתון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "במקלחת",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "מקלחת",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והאוטו",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "אוטו",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשירד",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "ירד",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שהמורה",
+    "prefixes": [
+      "ש",
+      "ה"
+    ],
+    "stem": "מורה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כמים",
+    "prefixes": [
+      "כ"
+    ],
+    "stem": "מים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כורסה",
+    "prefixes": [],
+    "stem": "כורסה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "ונכנס",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "נכנס",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ויצא",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "יצא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "למיטה",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "מיטה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והשמיכה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "שמיכה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשאמר",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "אמר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בשמיים",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "שמיים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בכלוב",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "כלוב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והפארק",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "פארק",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כשחזר",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "חזר",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והעוגה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "עוגה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והגלידה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "גלידה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כששיחק",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "שיחק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והחול",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "חול",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והרופא",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "רופא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בלילה",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "לילה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והסוס",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "סוס",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "כשדיבר",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "דיבר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשצחק",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "צחק",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והעץ",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "עץ",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והעכבר",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "עכבר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והמגירה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מגירה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והתמונה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "תמונה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והקיר",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "קיר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשפגש",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "פגש",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והקובייה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "קובייה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשבעט",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "בעט",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והרגל",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "רגל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והיד",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "יד",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והראש",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ראש",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והשיער",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "שיער",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והפנים",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "פנים",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והעיניים",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "עיניים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והאצבע",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "אצבע",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשהצביע",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "הצביע",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והמכנסיים",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מכנסיים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והגרביים",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "גרביים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והסוודר",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "סוודר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשהתלבש",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "התלבש",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והטלפון",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "טלפון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשצלצל",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "צלצל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "וההודעה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "הודעה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והכיס",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "כיס",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כששילם",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "שילם",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והמוכר",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מוכר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשחיפש",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "חיפש",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והגג",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "גג",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "והמרפסת",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מרפסת",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "והמעלית",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מעלית",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשעלה",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "עלה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והמדרגות",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מדרגות",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והספסל",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ספסל",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "כשזרק",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "זרק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשתפס",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "תפס",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "והסל",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "סל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והתפוז",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "תפוז",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשכתב",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "כתב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שעון",
+    "prefixes": [],
+    "stem": "שעון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "גזר",
+    "prefixes": [],
+    "stem": "גזר",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "דלת",
+    "prefixes": [],
+    "stem": "דלת",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והסבא",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "סבא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהצלחת",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "צלחת",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לפארק",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "פארק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהכרית",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "כרית",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והעפרון",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "עפרון",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מהכורסה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "כורסה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כששכח",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "שכח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהטלוויזיה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "טלוויזיה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשסגר",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "סגר",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "משקפיים",
+    "prefixes": [],
+    "stem": "משקפיים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והסבון",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "סבון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהארוחה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "ארוחה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שהכרית",
+    "prefixes": [
+      "ש",
+      "ה"
+    ],
+    "stem": "כרית",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והמטריה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מטריה",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "בשמלה",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "שמלה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "במגבת",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "מגבת",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והמזלג",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מזלג",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ששתה",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "שתה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והתקלח",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "התקלח",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שהתלבש",
+    "prefixes": [
+      "ש"
+    ],
+    "stem": "התלבש",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מטבע",
+    "prefixes": [],
+    "stem": "מטבע",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מכונית",
+    "prefixes": [],
+    "stem": "מכונית",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מהמרתף",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "מרתף",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והכוס",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "כוס",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והמגבת",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מגבת",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "לבוקר",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "בוקר",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מיץ",
+    "prefixes": [],
+    "stem": "מיץ",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בצל",
+    "prefixes": [],
+    "stem": "בצל",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "תרנגול",
+    "prefixes": [],
+    "stem": "תרנגול",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "חתול",
+    "prefixes": [],
+    "stem": "חתול",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ובחצר",
+    "prefixes": [
+      "ו",
+      "ב"
+    ],
+    "stem": "חצר",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "ושיחק",
+    "prefixes": [
+      "ו",
+      "ש"
+    ],
+    "stem": "יחק",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ולכיתה",
+    "prefixes": [
+      "ו",
+      "ל"
+    ],
+    "stem": "כיתה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והשער",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "שער",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "בדרך",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "דרך",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והדרך",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "דרך",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "והשכן",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "שכן",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "בכיס",
+    "prefixes": [
+      "ב"
+    ],
+    "stem": "כיס",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והמתנה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מתנה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהמעלית",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "מעלית",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והתיק",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "תיק",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "מהבניין",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "בניין",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והמחברת",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מחברת",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "והשעה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "שעה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהמים",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "מים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהלילה",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "לילה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהשער",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "שער",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "המיטה",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "מיטה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "הים",
+    "prefixes": [
+      "ה"
+    ],
+    "stem": "ים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שמש",
+    "prefixes": [],
+    "stem": "שמש",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מקל",
+    "prefixes": [],
+    "stem": "מקל",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "והמפה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "מפה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והילדים",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "ילדים",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשהאבא",
+    "prefixes": [
+      "כש",
+      "ה"
+    ],
+    "stem": "אבא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשהירח",
+    "prefixes": [
+      "כש",
+      "ה"
+    ],
+    "stem": "ירח",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כשהרופא",
+    "prefixes": [
+      "כש",
+      "ה"
+    ],
+    "stem": "רופא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כשעמד",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "עמד",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "וירד",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "ירד",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "וישב",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "ישב",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "כתף",
+    "prefixes": [],
+    "stem": "כתף",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "מזל",
+    "prefixes": [],
+    "stem": "מזל",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לימון",
+    "prefixes": [],
+    "stem": "לימון",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והכורסא",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "כורסא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "ושוקולד",
+    "prefixes": [
+      "ו"
+    ],
+    "stem": "שוקולד",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "שהביא",
+    "prefixes": [
+      "ש",
+      "ה"
+    ],
+    "stem": "ביא",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והצעצוע",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "צעצוע",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "והקופסה",
+    "prefixes": [
+      "ו",
+      "ה"
+    ],
+    "stem": "קופסה",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "מהכיס",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "כיס",
+    "note": "",
+    "split": "test"
+  },
+  {
+    "token": "כשמצא",
+    "prefixes": [
+      "כש"
+    ],
+    "stem": "מצא",
+    "note": "",
+    "split": "dev"
+  },
+  {
+    "token": "מהתנור",
+    "prefixes": [
+      "מ",
+      "ה"
+    ],
+    "stem": "תנור",
+    "note": "",
+    "split": "train"
+  },
+  {
+    "token": "לקניות",
+    "prefixes": [
+      "ל"
+    ],
+    "stem": "קניות",
+    "note": "",
+    "split": "train"
+  }
+]

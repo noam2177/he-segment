@@ -1,0 +1,10 @@
+[
+  {"query": "מחשב", "sentence": "קנינו והמחשב החדש.", "kind": "help"},
+  {"query": "ספר", "sentence": "הילד קרא בספר.", "kind": "help"},
+  {"query": "בית", "sentence": "הלכנו לבית.", "kind": "help"},
+  {"query": "גינה", "sentence": "שיחקו בגינה.", "kind": "help"},
+  {"query": "שולחן", "sentence": "הכוס על השולחן.", "kind": "help"},
+  {"query": "מכתב", "sentence": "שלחתי מכתב.", "kind": "keep"},
+  {"query": "מפתח", "sentence": "שכחתי את המפתח.", "kind": "keep"},
+  {"query": "הגיע", "sentence": "כשהגיע הביתה.", "kind": "limit"}
+]
