@@ -1,0 +1,17 @@
+[
+  {"token": "המשרד", "prefixes": ["ה"], "stem": "משרד"},
+  {"token": "ובית", "prefixes": ["ו"], "stem": "בית"},
+  {"token": "לעבודה", "prefixes": ["ל"], "stem": "עבודה"},
+  {"token": "מהעיר", "prefixes": ["מ", "ה"], "stem": "עיר"},
+  {"token": "מהבית", "prefixes": ["מ", "ה"], "stem": "בית"},
+  {"token": "בבית", "prefixes": ["ב"], "stem": "בית"},
+  {"token": "למשרד", "prefixes": ["ל"], "stem": "משרד"},
+  {"token": "כשבא", "prefixes": ["כש"], "stem": "בא"},
+  {"token": "כשהגיע", "prefixes": ["כש", "ה"], "stem": "גיע"},
+  {"token": "והילד", "prefixes": ["ו", "ה"], "stem": "ילד"},
+  {"token": "עיר", "prefixes": [], "stem": "עיר"},
+  {"token": "מכתב", "prefixes": [], "stem": "מכתב"},
+  {"token": "שלום", "prefixes": [], "stem": "שלום"},
+  {"token": "כלב", "prefixes": [], "stem": "כלב"},
+  {"token": "שרץ", "prefixes": [], "stem": "שרץ"}
+]
