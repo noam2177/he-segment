@@ -13,8 +13,12 @@ class BaselineTests(unittest.TestCase):
     def setUp(self) -> None:
         self.rows = json.loads((ROOT / "fixtures" / "gold.json").read_text(encoding="utf-8"))
 
-    def test_fifteen_rows(self) -> None:
-        self.assertEqual(len(self.rows), 15)
+    def test_core_rows_remain(self) -> None:
+        self.assertGreaterEqual(len(self.rows), 15)
+        tokens = {row["token"] for row in self.rows}
+        self.assertIn("מכתב", tokens)
+        self.assertIn("מהעיר", tokens)
+        self.assertIn("והילד", tokens)
 
     def test_article_after_mem(self) -> None:
         self.assertEqual(segment("מהעיר"), (("מ", "ה"), "עיר"))

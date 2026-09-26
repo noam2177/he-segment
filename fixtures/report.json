@@ -1,0 +1,36 @@
+{
+  "n_gold": 225,
+  "n_test": 41,
+  "protected_train": 45,
+  "baseline": {
+    "n": 41,
+    "exact": 21,
+    "exact_rate": 0.512,
+    "errors": {
+      "false_friend": 13,
+      "compound": 5,
+      "under_strip": 1,
+      "over_strip": 1
+    }
+  },
+  "lexicon": {
+    "n": 41,
+    "exact": 21,
+    "exact_rate": 0.512,
+    "errors": {
+      "false_friend": 13,
+      "compound": 5,
+      "under_strip": 1,
+      "over_strip": 1
+    }
+  },
+  "char_model": {
+    "n": 41,
+    "exact": 32,
+    "exact_rate": 0.78,
+    "errors": {
+      "under_strip": 6,
+      "false_friend": 3
+    }
+  }
+}

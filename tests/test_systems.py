@@ -1,0 +1,52 @@
+import json
+import sys
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from he_segment.char_model import predict, train
+from he_segment.lexicon import lexicon_segment, protected_from_train
+from he_segment.splits import assign_split
+
+
+class SystemTests(unittest.TestCase):
+    def test_split_is_stable_and_one_of_three(self) -> None:
+        self.assertEqual(assign_split("מכתב"), assign_split("מכתב"))
+        self.assertIn(assign_split("מכתב"), {"train", "dev", "test"})
+
+    def test_lexicon_uses_train_only(self) -> None:
+        rows = [
+            {"token": "מכתב", "prefixes": [], "stem": "מכתב", "split": "train"},
+            {"token": "שלום", "prefixes": [], "stem": "שלום", "split": "test"},
+        ]
+        protected = protected_from_train(rows)
+        self.assertIn("מכתב", protected)
+        self.assertNotIn("שלום", protected)
+        self.assertEqual(lexicon_segment("מכתב", protected), ((), "מכתב"))
+
+    def test_char_model_learns_a_train_cut(self) -> None:
+        rows = [
+            {"token": "מהעיר", "prefixes": ["מ", "ה"], "stem": "עיר", "split": "train"},
+            {"token": "מהבית", "prefixes": ["מ", "ה"], "stem": "בית", "split": "train"},
+            {"token": "לעבודה", "prefixes": ["ל"], "stem": "עבודה", "split": "train"},
+            {"token": "בבית", "prefixes": ["ב"], "stem": "בית", "split": "train"},
+            {"token": "המשרד", "prefixes": ["ה"], "stem": "משרד", "split": "test"},
+        ]
+        weights = train(rows, epochs=12)
+        self.assertEqual(predict("מהעיר", weights), (("מ", "ה"), "עיר"))
+        train_tokens = {row["token"] for row in rows if row["split"] == "train"}
+        self.assertNotIn("המשרד", train_tokens)
+
+    def test_gold_file_concatenates(self) -> None:
+        rows = json.loads((ROOT / "fixtures" / "gold.json").read_text(encoding="utf-8"))
+        seen: set[str] = set()
+        for row in rows:
+            self.assertEqual("".join(row["prefixes"]) + row["stem"], row["token"])
+            self.assertNotIn(row["token"], seen)
+            seen.add(row["token"])
+
+
+if __name__ == "__main__":
+    unittest.main()
