@@ -1,36 +1,38 @@
 {
-  "n_gold": 225,
-  "n_test": 41,
-  "protected_train": 45,
+  "source": "frozen_test",
+  "n_gold": 630,
+  "n_test": 74,
+  "protected_train": 90,
   "baseline": {
-    "n": 41,
-    "exact": 21,
-    "exact_rate": 0.512,
+    "n": 74,
+    "exact": 36,
+    "exact_rate": 0.486,
     "errors": {
-      "false_friend": 13,
-      "compound": 5,
-      "under_strip": 1,
+      "false_friend": 18,
+      "compound": 17,
+      "under_strip": 2,
       "over_strip": 1
     }
   },
   "lexicon": {
-    "n": 41,
-    "exact": 21,
-    "exact_rate": 0.512,
+    "n": 74,
+    "exact": 36,
+    "exact_rate": 0.486,
     "errors": {
-      "false_friend": 13,
-      "compound": 5,
-      "under_strip": 1,
+      "false_friend": 18,
+      "compound": 17,
+      "under_strip": 2,
       "over_strip": 1
     }
   },
   "char_model": {
-    "n": 41,
-    "exact": 32,
-    "exact_rate": 0.78,
+    "n": 74,
+    "exact": 64,
+    "exact_rate": 0.865,
     "errors": {
-      "under_strip": 6,
-      "false_friend": 3
+      "under_strip": 7,
+      "false_friend": 2,
+      "over_strip": 1
     }
   }
 }

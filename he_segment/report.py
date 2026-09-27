@@ -12,6 +12,7 @@ from he_segment.score import score_rows
 
 ROOT = Path(__file__).resolve().parents[1]
 GOLD = ROOT / "fixtures" / "gold.json"
+FROZEN = ROOT / "fixtures" / "frozen_test.json"
 OUT = ROOT / "fixtures" / "report.json"
 
 
@@ -19,10 +20,11 @@ def main() -> None:
     rows = json.loads(GOLD.read_text(encoding="utf-8"))
     for row in rows:
         row.setdefault("split", "train")
-    test = [row for row in rows if row["split"] == "test"]
+    test = json.loads(FROZEN.read_text(encoding="utf-8"))
     protected = protected_from_train(rows)
     weights = train(rows)
     report = {
+        "source": "frozen_test",
         "n_gold": len(rows),
         "n_test": len(test),
         "protected_train": len(protected),

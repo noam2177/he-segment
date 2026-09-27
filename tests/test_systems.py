@@ -6,8 +6,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
+from he_segment.baseline import segment
 from he_segment.char_model import predict, train
 from he_segment.lexicon import lexicon_segment, protected_from_train
+from he_segment.score import score_rows
 from he_segment.splits import assign_split
 
 
@@ -46,6 +48,20 @@ class SystemTests(unittest.TestCase):
             self.assertEqual("".join(row["prefixes"]) + row["stem"], row["token"])
             self.assertNotIn(row["token"], seen)
             seen.add(row["token"])
+
+    def test_frozen_scores_stay(self) -> None:
+        gold = json.loads((ROOT / "fixtures" / "gold.json").read_text(encoding="utf-8"))
+        for row in gold:
+            row.setdefault("split", "train")
+        frozen = json.loads((ROOT / "fixtures" / "frozen_test.json").read_text(encoding="utf-8"))
+        protected = protected_from_train(gold)
+        weights = train(gold)
+        self.assertEqual(score_rows(frozen, segment)["exact"], 36)
+        self.assertEqual(
+            score_rows(frozen, lambda token: lexicon_segment(token, protected))["exact"],
+            36,
+        )
+        self.assertEqual(score_rows(frozen, lambda token: predict(token, weights))["exact"], 64)
 
 
 if __name__ == "__main__":
