@@ -9,7 +9,7 @@ sys.path.insert(0, str(ROOT))
 from he_segment.baseline import segment
 from he_segment.char_model import predict, train
 from he_segment.lexicon import lexicon_segment, protected_from_train
-from he_segment.score import score_rows
+from he_segment.score import error_mix, lexicon_only, score_rows
 from he_segment.splits import assign_split
 
 
@@ -62,6 +62,16 @@ class SystemTests(unittest.TestCase):
             36,
         )
         self.assertEqual(score_rows(frozen, lambda token: predict(token, weights))["exact"], 64)
+        wins = lexicon_only(
+            frozen,
+            lambda token: lexicon_segment(token, protected),
+            lambda token: predict(token, weights),
+        )
+        self.assertEqual(wins, ["שישן", "שנפל", "שנכנס", "שיחק", "בתיק"])
+        char_score = score_rows(frozen, lambda token: predict(token, weights))
+        mix = error_mix(frozen, lambda token: predict(token, weights))
+        self.assertEqual(sum(mix.values()) + char_score["exact"], len(frozen))
+        self.assertEqual(char_score["exact"], 64)
 
 
 if __name__ == "__main__":
