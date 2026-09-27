@@ -9,7 +9,7 @@ sys.path.insert(0, str(ROOT))
 from he_segment.baseline import segment
 from he_segment.char_model import predict, train
 from he_segment.lexicon import lexicon_segment, protected_from_train
-from he_segment.score import error_mix, lexicon_only, score_rows
+from he_segment.score import error_mix, lexicon_only, mix_share, score_rows
 from he_segment.splits import assign_split
 
 
@@ -72,6 +72,8 @@ class SystemTests(unittest.TestCase):
         mix = error_mix(frozen, lambda token: predict(token, weights))
         self.assertEqual(sum(mix.values()) + char_score["exact"], len(frozen))
         self.assertEqual(char_score["exact"], 64)
+        share = mix_share(frozen, lambda token: predict(token, weights))
+        self.assertAlmostEqual(sum(share.values()), 1.0, places=2)
 
 
 if __name__ == "__main__":

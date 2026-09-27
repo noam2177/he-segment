@@ -28,6 +28,15 @@ def error_mix(rows: list[dict], predict) -> dict[str, int]:
     return {tag: int(errors.get(tag, 0)) for tag in TAGS}
 
 
+def mix_share(rows: list[dict], predict) -> dict[str, float]:
+    """Each tag's share of the mistakes. All zero when every row matches."""
+    mix = error_mix(rows, predict)
+    total = sum(mix.values())
+    if not total:
+        return {tag: 0.0 for tag in mix}
+    return {tag: round(count / total, 3) for tag, count in mix.items()}
+
+
 def lexicon_only(rows: list[dict], lexicon_predict, other_predict) -> list[str]:
     """Tokens the lexicon cuts correctly and the other system does not."""
     wins: list[str] = []
